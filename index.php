@@ -50,7 +50,6 @@
 <head>
     <style>
         #id{
-            
             display: flex;
             justify-content: center;
         }
@@ -67,13 +66,13 @@
         <div id="form">
             <form method="post" >
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required placeholder="Please enter your name"></input>
+            <input type="text" id="name" name="name" required placeholder="Please enter your name">
 
             <label for="id">ID:</label>
-            <input type="text" id="id" name="id" required placeholder="Please enter your id"></input>
+            <input type="text" id="id" name="id" required placeholder="Please enter your id">
 
             <label for="id">ID:</label>
-            <input type="text" id="id" name="id" required placeholder="Please enter your id"></input>
+            <input type="text" id="id" name="id" required placeholder="Please enter your id">
 
             <label for="item">Manu:</label>
             <select id="item" name="id" required >
