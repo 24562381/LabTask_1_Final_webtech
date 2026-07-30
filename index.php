@@ -48,6 +48,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <style>
+        #id{
+            
+            display: flex;
+            justify-content: center;
+        }
+    </style>
 </head>
 <body>
        <table>
@@ -57,7 +64,8 @@
                 <td></td>
             </tr>
         </table>
-        <form method="post" >
+        <div id="form">
+            <form method="post" >
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required placeholder="Please enter your name"></input>
 
@@ -76,6 +84,7 @@
                 <option value="4">Coffie</option>
             </select>
         </form>
+        </div>
 </body>
 
 
