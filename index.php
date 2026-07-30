@@ -51,7 +51,7 @@
 <head>
     <style>
     div{
-        display: inline-block;
+        display: block;
         justify-content: center;
     }
     #form {
