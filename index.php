@@ -56,11 +56,32 @@
     </style>
 </head>
 <body>
-       <table>
+        <h1>Manu:</h1>
+       <table border>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
+                <th>Item No</th>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Burger</td>
+                <td>$5</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Pizza</td>
+                <td>$8</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Sandwitch</td>
+                <td>$4</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Coffie</td>
+                <td>$3</td>
             </tr>
         </table>
         <div id="form">
