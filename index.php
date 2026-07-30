@@ -50,6 +50,10 @@
 
 <head>
     <style>
+    div{
+        display: inline-block;
+        justify-content: center;
+    }
     #id {
         display: flex;
         justify-content: center;
@@ -94,10 +98,6 @@
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required placeholder="Please enter your name">
 
-            </div>
-            <div>
-                <label for="id">ID:</label>
-                <input type="text" id="id" name="id" required placeholder="Please enter your id">
             </div>
             <div>
                 <label for="id">ID:</label>
