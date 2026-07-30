@@ -84,6 +84,8 @@
                 <td>$3</td>
             </tr>
         </table>
+
+        <h1>Customer Info & Order:</h1>
         <div id="form">
             <form method="post" >
             <label for="name">Name:</label>
