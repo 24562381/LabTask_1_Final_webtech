@@ -1,47 +1,47 @@
 <?php
-if(isset($_POST("user_input"))){
-    $user_input = $_POST("user_input")??null;
-        if($user_input !=null){
+// if(isset($_POST("user_input"))){
+//     $user_input = $_POST("user_input")??null;
+//         if($user_input !=null){
 
-        $student_name = $user_input["name"]??"";
-        $student_id = $user_input["id"]??"";
+//         $student_name = $user_input["name"]??"";
+//         $student_id = $user_input["id"]??"";
 
-        $chioces = $user_input["chioces"]??null;
-        if($chioces != null){
+//         $chioces = $user_input["chioces"]??null;
+//         if($chioces != null){
     
-            $item = $chioces==null?return:$chioces["id"];
-            $quantity = $chioces==null?return:$chioces["id"];
+//             $item = $chioces==null?return:$chioces["id"];
+//             $quantity = $chioces==null?return:$chioces["id"];
             
-            $food_items = [
-                { 
-                    "id"=>1,
-                    "item"=>"Burger",
-                    "price"=>5
-                },{ 
-                    "id"=>2,
-                    "item"=>"Pizza",
-                    "price"=>8
-                },{ 
-                    "id"=>3,
-                    "item"=>"Sandwitch",
-                    "price"=>4
-                },{ 
-                    "id"=>4,
-                    "item"=>"Coffie",
-                    "price"=>3
-                },
-            ];
-            $id = ()
-            $selected_item = 
-            switch($item){
-                case 1:
+//             $food_items = [
+//                 { 
+//                     "id"=>1,
+//                     "item"=>"Burger",
+//                     "price"=>5
+//                 },{ 
+//                     "id"=>2,
+//                     "item"=>"Pizza",
+//                     "price"=>8
+//                 },{ 
+//                     "id"=>3,
+//                     "item"=>"Sandwitch",
+//                     "price"=>4
+//                 },{ 
+//                     "id"=>4,
+//                     "item"=>"Coffie",
+//                     "price"=>3
+//                 },
+//             ];
+//             $id = ()
+//             $selected_item = 
+//             switch($item){
+//                 case 1:
                 
-                default:
-                    echo "Please chose an item!";
-            }
-        }
-    }
-  }
+//                 default:
+//                     echo "Please chose an item!";
+//             }
+//         }
+//     }
+//   }
 ?>
 
 
