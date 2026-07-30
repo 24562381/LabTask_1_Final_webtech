@@ -54,7 +54,7 @@
         display: inline-block;
         justify-content: center;
     }
-    #id {
+    #form {
         display: flex;
         justify-content: center;
     }
