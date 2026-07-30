@@ -50,10 +50,7 @@
 
 <head>
     <style>
-    div{
-        display: block;
-        justify-content: center;
-    }
+    
     #form {
         display: flex;
         justify-content: center;
